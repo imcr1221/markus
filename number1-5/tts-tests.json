@@ -1,0 +1,257 @@
+[
+  {
+    "id": "number1-5-1",
+    "text": "有几个？",
+    "audio": "audio/78c4e54a1a6a.mp3"
+  },
+  {
+    "id": "number1-5-2",
+    "text": "你要几个？",
+    "audio": "audio/e0def24f7e04.mp3"
+  },
+  {
+    "id": "number1-5-3",
+    "text": "你有几个？",
+    "audio": "audio/2b047ccb3bef.mp3"
+  },
+  {
+    "id": "number1-5-4",
+    "text": "给你。",
+    "audio": "audio/a276e9e28d08.mp3"
+  },
+  {
+    "id": "number1-5-5",
+    "text": "谢谢。",
+    "audio": "audio/844e278836d5.mp3"
+  },
+  {
+    "id": "number1-5-6",
+    "text": "不客气。",
+    "audio": "audio/9c4d773eef8f.mp3"
+  },
+  {
+    "id": "number1-5-7",
+    "text": "准备好了！",
+    "audio": "audio/5c3f6db6d131.mp3"
+  },
+  {
+    "id": "number1-5-8",
+    "text": "发射！",
+    "audio": "audio/73fc9efcf3b8.mp3"
+  },
+  {
+    "id": "number1-5-9",
+    "text": "你听懂啦！",
+    "audio": "audio/ed3e695efbc9.mp3"
+  },
+  {
+    "id": "number1-5-10",
+    "text": "我们再听一次。",
+    "audio": "audio/0ee2b0f76279.mp3"
+  },
+  {
+    "id": "number1-5-11",
+    "text": "找到了！",
+    "audio": "audio/6fe7afc084f3.mp3"
+  },
+  {
+    "id": "number1-5-12",
+    "text": "一",
+    "audio": "audio/7941da94db2a.mp3"
+  },
+  {
+    "id": "number1-5-13",
+    "text": "一个",
+    "audio": "audio/8b9a14d93c3e.mp3"
+  },
+  {
+    "id": "number1-5-14",
+    "text": "拿一个。",
+    "audio": "audio/e54331a94bb5.mp3"
+  },
+  {
+    "id": "number1-5-15",
+    "text": "我要一个。",
+    "audio": "audio/8d65aef25439.mp3"
+  },
+  {
+    "id": "number1-5-16",
+    "text": "我有一个。",
+    "audio": "audio/c93f722ffe8d.mp3"
+  },
+  {
+    "id": "number1-5-17",
+    "text": "一，一辆汽车。",
+    "audio": "audio/229dabdf558e.mp3"
+  },
+  {
+    "id": "number1-5-18",
+    "text": "一，一块积木。",
+    "audio": "audio/75daa9f87153.mp3"
+  },
+  {
+    "id": "number1-5-19",
+    "text": "请找一。",
+    "audio": "audio/1b2c32099704.mp3"
+  },
+  {
+    "id": "number1-5-20",
+    "text": "二",
+    "audio": "audio/2d8be272c9e7.mp3"
+  },
+  {
+    "id": "number1-5-21",
+    "text": "两个",
+    "audio": "audio/80cdce8e2eb8.mp3"
+  },
+  {
+    "id": "number1-5-22",
+    "text": "拿两个。",
+    "audio": "audio/f8a1bb6e6819.mp3"
+  },
+  {
+    "id": "number1-5-23",
+    "text": "我要两个。",
+    "audio": "audio/35cda095dd4d.mp3"
+  },
+  {
+    "id": "number1-5-24",
+    "text": "我有两个。",
+    "audio": "audio/ad290f1d6301.mp3"
+  },
+  {
+    "id": "number1-5-25",
+    "text": "二，两辆汽车。",
+    "audio": "audio/efd1d3071b61.mp3"
+  },
+  {
+    "id": "number1-5-26",
+    "text": "二，两块积木。",
+    "audio": "audio/53258a0dbc5a.mp3"
+  },
+  {
+    "id": "number1-5-27",
+    "text": "请找二。",
+    "audio": "audio/4b3733f93f62.mp3"
+  },
+  {
+    "id": "number1-5-28",
+    "text": "三",
+    "audio": "audio/e662ff59a0da.mp3"
+  },
+  {
+    "id": "number1-5-29",
+    "text": "三个",
+    "audio": "audio/d9555975e916.mp3"
+  },
+  {
+    "id": "number1-5-30",
+    "text": "拿三个。",
+    "audio": "audio/2d6188815e0e.mp3"
+  },
+  {
+    "id": "number1-5-31",
+    "text": "我要三个。",
+    "audio": "audio/c35a72b456f2.mp3"
+  },
+  {
+    "id": "number1-5-32",
+    "text": "我有三个。",
+    "audio": "audio/870d35f1a89f.mp3"
+  },
+  {
+    "id": "number1-5-33",
+    "text": "三，三辆汽车。",
+    "audio": "audio/301b16e7dce6.mp3"
+  },
+  {
+    "id": "number1-5-34",
+    "text": "三，三块积木。",
+    "audio": "audio/874c2667d9c8.mp3"
+  },
+  {
+    "id": "number1-5-35",
+    "text": "请找三。",
+    "audio": "audio/ef42ac688301.mp3"
+  },
+  {
+    "id": "number1-5-36",
+    "text": "四",
+    "audio": "audio/21716cf31107.mp3"
+  },
+  {
+    "id": "number1-5-37",
+    "text": "四个",
+    "audio": "audio/e58b3f113e2d.mp3"
+  },
+  {
+    "id": "number1-5-38",
+    "text": "拿四个。",
+    "audio": "audio/74729f75a34c.mp3"
+  },
+  {
+    "id": "number1-5-39",
+    "text": "我要四个。",
+    "audio": "audio/a0743125db8c.mp3"
+  },
+  {
+    "id": "number1-5-40",
+    "text": "我有四个。",
+    "audio": "audio/cc95221a53cf.mp3"
+  },
+  {
+    "id": "number1-5-41",
+    "text": "四，四辆汽车。",
+    "audio": "audio/7c655192c30a.mp3"
+  },
+  {
+    "id": "number1-5-42",
+    "text": "四，四块积木。",
+    "audio": "audio/be19b10e8bde.mp3"
+  },
+  {
+    "id": "number1-5-43",
+    "text": "请找四。",
+    "audio": "audio/94e06a758af7.mp3"
+  },
+  {
+    "id": "number1-5-44",
+    "text": "五",
+    "audio": "audio/1fcc29d077c0.mp3"
+  },
+  {
+    "id": "number1-5-45",
+    "text": "五个",
+    "audio": "audio/9fd055604533.mp3"
+  },
+  {
+    "id": "number1-5-46",
+    "text": "拿五个。",
+    "audio": "audio/da34d2b40906.mp3"
+  },
+  {
+    "id": "number1-5-47",
+    "text": "我要五个。",
+    "audio": "audio/263cc5afc6ed.mp3"
+  },
+  {
+    "id": "number1-5-48",
+    "text": "我有五个。",
+    "audio": "audio/965b8164818f.mp3"
+  },
+  {
+    "id": "number1-5-49",
+    "text": "五，五辆汽车。",
+    "audio": "audio/24f9beee208a.mp3"
+  },
+  {
+    "id": "number1-5-50",
+    "text": "五，五块积木。",
+    "audio": "audio/4ef6833ead56.mp3"
+  },
+  {
+    "id": "number1-5-51",
+    "text": "请找五。",
+    "audio": "audio/0450ec7d213f.mp3"
+  }
+]
