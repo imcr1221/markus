@@ -13,13 +13,16 @@
 <span data-tts-text="一，二，三，四，五，六，七，八，九，十"></span>
 <span data-tts-text="答对啦，真棒！"></span><span data-tts-text="再试一次吧"></span><span data-tts-text="马库斯，你真棒！"></span>
 </div>
+<script src="tts-manifest.js"></script>
+<script src="audio/tts-manifest.js"></script>
 <script>
 /* TTS：所有固定朗读文本均以 data-tts-text 标记；由用户的生成程序创建 audio/ 下的 MP3，本页不合成语音。 */
-const words=[{word:'手',pinyin:'shǒu',emoji:'🖐️',img:'hand'},{word:'胳膊',pinyin:'gē bo',emoji:'💪',img:'arm'},{word:'腿',pinyin:'tuǐ',emoji:'🦵',img:'leg'},{word:'脚',pinyin:'jiǎo',emoji:'🦶',img:'foot'}];const actions=[{word:'拍拍手',emoji:'👏',video:'paishou.mp4'},{word:'摆胳膊',emoji:'🙌',video:'baigebo.mp4'},{word:'抬腿',emoji:'🦵',video:'taitui.mp4'},{word:'跺脚',emoji:'👣',video:'duojiao.mp4'}];const numerals=['一','二','三','四','五','六','七','八','九','十'];const TTS_MANIFEST={"手":"audio/tts-001.mp3","胳膊":"audio/tts-002.mp3","腿":"audio/tts-003.mp3","脚":"audio/tts-004.mp3","拍拍手":"audio/tts-005.mp3","摆胳膊":"audio/tts-006.mp3","抬腿":"audio/tts-007.mp3","跺脚":"audio/tts-008.mp3","一":"audio/tts-009.mp3","二":"audio/tts-010.mp3","三":"audio/tts-011.mp3","四":"audio/tts-012.mp3","五":"audio/tts-013.mp3","六":"audio/tts-014.mp3","七":"audio/tts-015.mp3","八":"audio/tts-016.mp3","九":"audio/tts-017.mp3","十":"audio/tts-018.mp3","一，二，三，四，五，六，七，八，九，十":"audio/tts-019.mp3","答对啦，真棒！":"audio/tts-020.mp3","再试一次吧":"audio/tts-021.mp3","马库斯，你真棒！":"audio/tts-022.mp3"};let currentAudio=null;let currentSequence=0;
+const words=[{word:'手',pinyin:'shǒu',emoji:'🖐️',img:'hand'},{word:'胳膊',pinyin:'gē bo',emoji:'💪',img:'arm'},{word:'腿',pinyin:'tuǐ',emoji:'🦵',img:'leg'},{word:'脚',pinyin:'jiǎo',emoji:'🦶',img:'foot'}];const actions=[{word:'拍拍手',emoji:'👏',video:'paishou.mp4'},{word:'摆胳膊',emoji:'🙌',video:'baigebo.mp4'},{word:'抬腿',emoji:'🦵',video:'taitui.mp4'},{word:'跺脚',emoji:'👣',video:'duojiao.mp4'}];const numerals=['一','二','三','四','五','六','七','八','九','十'];const TTS_MANIFEST={"一":"tts_21a21a2b1e0dc23e1f2b.mp3","一，二，三，四，五，六，七，八，九，十":"tts_300e141499a1e42dc2d9.mp3","七":"tts_47538d00d6dcb92c8e56.mp3","三":"tts_c461b4a971647f6bca26.mp3","九":"tts_30733ab20d343cf47c3c.mp3","二":"tts_1621296decd30dea0277.mp3","五":"tts_842be78c781652fa230b.mp3","八":"tts_05bb8ca0f6d4260d6598.mp3","六":"tts_7754021ef3208ca7459b.mp3","再试一次吧":"tts_7a7d2d47d4b861328642.mp3","十":"tts_b2f2ed84d22700bbdafb.mp3","四":"tts_7b0ea67fc7d5cbd6c94d.mp3","手":"tts_10ccdc32223a70c17da5.mp3","抬腿":"tts_b0e3d8423f78c4d378d1.mp3","拍拍手":"tts_a602793704f0efeaa32c.mp3","摆胳膊":"tts_a69f87cdb234961d4905.mp3","答对啦，真棒！":"tts_b926b4ad0ef468c50db9.mp3","胳膊":"tts_17a5f9d061114caad376.mp3","脚":"tts_f1096b3301088b48d7d1.mp3","腿":"tts_5e61ade0ae7690a2d38d.mp3","跺脚":"tts_a5baa4405bebe390d000.mp3","马库斯，你真棒！":"tts_5b597bd54c8b1e06da1f.mp3"};let currentAudio=null;let currentSequence=0;
 function say(text){
  ++currentSequence;
  if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;}
- const src=TTS_MANIFEST[text];
+ const filename=(window.TTS_AUDIO && window.TTS_AUDIO[text]) || TTS_MANIFEST[text];
+  const src=filename ? (filename.includes('/') ? filename : 'audio/'+filename) : null;
  if(!src){console.warn('未生成语音:',text);return;}
  currentAudio=new Audio(src);currentAudio.play().catch(e=>console.warn('语音播放失败',src,e));
 }
