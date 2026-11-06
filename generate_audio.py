@@ -84,7 +84,7 @@ async def process_module(module_dir: Path):
         print(f"  🔊 生成中: {filename} -> {text[:15]}...")
         try:
             # 语速调整：rate="-15%"
-            communicate = edge_tts.Communicate(text, VOICE, rate="-15%")
+            communicate = edge_tts.Communicate(text, VOICE, rate="-25%")
             await asyncio.wait_for(communicate.save(output_path), timeout=15.0)
             
             if output_path.stat().st_size < 1000:
