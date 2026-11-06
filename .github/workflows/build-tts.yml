@@ -67,5 +67,6 @@ jobs:
             echo "No generated audio changes."
           else
             git commit -m "Auto-generate TTS audio and manifests"
+            git pull --rebase origin main
             git push
           fi
