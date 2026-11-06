@@ -36,17 +36,17 @@
 
 <div id="ttsBank" hidden aria-hidden="true">
 <span data-tts-text="手"></span><span data-tts-text="胳膊"></span><span data-tts-text="腿"></span><span data-tts-text="脚"></span>
-<span data-tts-text="拍拍手"></span><span data-tts-text="摆胳膊"></span><span data-tts-text="抬腿"></span><span data-tts-text="跺脚"></span>
+<span data-tts-text="拍拍手"></span><span data-tts-text="摆摆胳膊"></span><span data-tts-text="抬抬腿"></span><span data-tts-text="跺跺脚"></span>
 <span data-tts-text="一"></span><span data-tts-text="二"></span><span data-tts-text="三"></span><span data-tts-text="四"></span><span data-tts-text="五"></span><span data-tts-text="六"></span><span data-tts-text="七"></span><span data-tts-text="八"></span><span data-tts-text="九"></span><span data-tts-text="十"></span>
 <span data-tts-text="一，二，三，四，五，六，七，八，九，十"></span>
-<span data-tts-text="答对啦，真棒！"></span><span data-tts-text="再试一次吧"></span><span data-tts-text="马库斯，你真棒！"></span>
+<span data-tts-text="答对啦，真棒！"></span><span data-tts-text="再试一次吧"></span><span data-tts-text="小朋友，你真棒！"></span>
 </div>
 
 <!-- 唯一且正确的引入方式，直接读取同目录下 audio 里的文件 -->
 <script src="audio/tts-manifest.js"></script>
 <script>
 const words=[{word:'手',pinyin:'shǒu',emoji:'🖐️',img:'hand'},{word:'胳膊',pinyin:'gē bo',emoji:'💪',img:'arm'},{word:'腿',pinyin:'tuǐ',emoji:'🦵',img:'leg'},{word:'脚',pinyin:'jiǎo',emoji:'🦶',img:'foot'}];
-const actions=[{word:'拍拍手',emoji:'👏',video:'paishou.mp4'},{word:'摆胳膊',emoji:'🙌',video:'baigebo.mp4'},{word:'抬腿',emoji:'🦵',video:'taitui.mp4'},{word:'跺脚',emoji:'👣',video:'duojiao.mp4'}];
+const actions=[{word:'拍拍手',emoji:'👏',video:'paishou.mp4'},{word:'摆摆胳膊',emoji:'🙌',video:'baigebo.mp4'},{word:'抬抬腿',emoji:'🦵',video:'taitui.mp4'},{word:'跺跺脚',emoji:'👣',video:'duojiao.mp4'}];
 const numerals=['一','二','三','四','五','六','七','八','九','十'];
 
 // ======== 终极防叠音 + 智能降级引擎 ========
@@ -163,9 +163,9 @@ function nextQuiz(){
     if(quizIndex>=quizOrder.length){
         document.getElementById('quizProgress').textContent='全部完成！';
         document.getElementById('quizChoices').innerHTML='<div style="grid-column:1/-1;text-align:center;font-size:90px">🎉🏆🎉</div>';
-        document.getElementById('quizFeedback').textContent='马库斯，你真棒！';
+        document.getElementById('quizFeedback').textContent='小朋友，你真棒！';
         document.getElementById('quizNext').textContent='再玩一次 ↻';
-        quizStarted=false;say('马库斯，你真棒！');return
+        quizStarted=false;say('小朋友，你真棒！');return
     }
     renderQuiz()
 }
